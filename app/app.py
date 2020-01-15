@@ -23,4 +23,4 @@ def mainpage():
 	return render_template('index.html', key=key, cache_value=cache_value)
 
 if __name__ == '__main__':
-    app.run(host='35.167.212.133')
+    app.run(host='172.31.19.38')
